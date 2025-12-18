@@ -1,0 +1,55 @@
+/* --- Global --- */
+* {
+    font-family: Inter, SF Pro Text, NotoSans Nerd Font;
+    font-size: 14px;
+}
+
+/* --- Window (glass) --- */
+window {
+    background-color: rgba(20, 20, 30, 0.45);
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* --- Input box --- */
+#input {
+    margin: 14px;
+    padding: 10px 14px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: none;
+    color: #eaeaf0;
+}
+
+#input:focus {
+    outline: none;
+    box-shadow: inset 0 0 0 1px rgba(130, 170, 255, 0.35);
+}
+
+/* --- Inner box --- */
+#inner-box {
+    margin: 8px 12px 14px;
+    border-radius: 12px;
+}
+
+/* --- Entries --- */
+#entry {
+    padding: 10px 14px;
+    border-radius: 10px;
+    transition: background-color 0.15s ease;
+}
+
+#entry:selected {
+    background-color: rgba(130, 170, 255, 0.25);
+}
+
+/* --- Text --- */
+#text {
+    color: #e6e6eb;
+}
+
+/* --- Icons --- */
+#img {
+    margin-right: 10px;
+}
+
